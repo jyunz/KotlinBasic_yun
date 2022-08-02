@@ -3,6 +3,7 @@ package com.class101.kotlinbasic_yun
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -16,6 +17,10 @@ class MainActivity : AppCompatActivity() {
             Log.e("메인화면","에러관련 로그")
 
 //            i는 인포
+        }
+
+        smallBtn.setOnClickListener {
+            Toast.makeText(this, "작은버튼눌림", Toast.LENGTH_SHORT).show()
         }
    }
 }
