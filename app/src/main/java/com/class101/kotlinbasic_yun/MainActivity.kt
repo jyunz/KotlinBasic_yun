@@ -14,6 +14,8 @@ class MainActivity : AppCompatActivity() {
             // 중괄호 안에 있는 내용을 실행.
             Log.d("메인화면", "버튼이 클릭됨")
             Log.e("메인화면","에러관련 로그")
+
+//            i는 인포
         }
-    }
+   }
 }
